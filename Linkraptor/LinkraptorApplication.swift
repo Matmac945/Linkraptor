@@ -1,5 +1,5 @@
 //
-//  BrowserinoApplication.swift
+//  LinkraptorApplication.swift
 //  Browserino
 //
 //  Created by Aleksandr Strizhnev on 19.11.2024.
@@ -7,7 +7,7 @@
 
 import AppKit
 
-class BrowserinoApplication: NSApplication {
+class LinkraptorApplication: NSApplication {
     override open func sendEvent(_ event: NSEvent) {
         if event.type == .keyDown {
             if event.modifierFlags.contains(.command)

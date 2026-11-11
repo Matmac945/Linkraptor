@@ -12,7 +12,7 @@ export DEVELOPER_DIR="${DEVELOPER_DIR:-/Applications/Xcode.app/Contents/Develope
 
 if [ ! -x "$TOOL" ]; then
     echo "Downloading Sparkle's tools…"
-    xcodebuild -resolvePackageDependencies -project Browserino.xcodeproj -scheme Browserino -derivedDataPath build >/dev/null
+    xcodebuild -resolvePackageDependencies -project Linkraptor.xcodeproj -scheme Linkraptor -derivedDataPath build >/dev/null
 fi
 
 case "${1:-}" in

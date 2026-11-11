@@ -10,7 +10,7 @@ import Foundation
 import Sparkle
 
 class AppDelegate: NSObject, NSApplicationDelegate, NSWindowDelegate, NSMenuDelegate {
-    private var selectorWindow: BrowserinoWindow?
+    private var selectorWindow: LinkraptorWindow?
     private var preferencesWindow: NSWindow?
 
     @AppStorage("rules") private var rules: [Rule] = []
@@ -274,7 +274,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSWindowDelegate, NSMenuDele
         }
         
         if selectorWindow == nil {
-            selectorWindow = BrowserinoWindow()
+            selectorWindow = LinkraptorWindow()
         }
 
         // Liquid Glass panel that sizes itself to the list, like a native menu.
@@ -284,7 +284,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSWindowDelegate, NSMenuDele
             )
         )
         let glass = NSGlassEffectView()
-        glass.cornerRadius = BrowserinoWindow.cornerRadius
+        glass.cornerRadius = LinkraptorWindow.cornerRadius
         glass.contentView = hostingView
         glass.autoresizingMask = [.width, .height]
 
@@ -292,7 +292,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSWindowDelegate, NSMenuDele
         // edge, which showed as a faint square. Clip it to the rounded shape.
         let clip = NSView()
         clip.wantsLayer = true
-        clip.layer?.cornerRadius = BrowserinoWindow.cornerRadius
+        clip.layer?.cornerRadius = LinkraptorWindow.cornerRadius
         clip.layer?.cornerCurve = .continuous
         clip.layer?.masksToBounds = true
         clip.addSubview(glass)

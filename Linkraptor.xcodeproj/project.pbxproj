@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		664FDF222CE4AA6B009766AA /* BrowserUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664FDF212CE4AA6B009766AA /* BrowserUtil.swift */; };
 		669247902CEB48A5006A8C8B /* LocationsTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6692478F2CEB48A5006A8C8B /* LocationsTab.swift */; };
-		9830F0A62C119A3000D69C88 /* BrowserinoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9830F0A52C119A3000D69C88 /* BrowserinoApp.swift */; };
+		9830F0A62C119A3000D69C88 /* LinkraptorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9830F0A52C119A3000D69C88 /* LinkraptorApp.swift */; };
 		9830F0A82C119A3000D69C88 /* PromptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9830F0A72C119A3000D69C88 /* PromptView.swift */; };
 		9830F0AA2C119A3100D69C88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9830F0A92C119A3100D69C88 /* Assets.xcassets */; };
 		9830F0AD2C119A3100D69C88 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9830F0AC2C119A3100D69C88 /* Preview Assets.xcassets */; };
@@ -18,11 +18,11 @@
 		9830F0BB2C11DE8F00D69C88 /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9830F0BA2C11DE8F00D69C88 /* PreferencesView.swift */; };
 		9830F0BE2C11DEBB00D69C88 /* View+If.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9830F0BD2C11DEBB00D69C88 /* View+If.swift */; };
 		9830F0C32C11DEED00D69C88 /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9830F0C22C11DEED00D69C88 /* ButtonStyles.swift */; };
-		9830F0C52C11DF2C00D69C88 /* BrowserinoWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9830F0C42C11DF2C00D69C88 /* BrowserinoWindow.swift */; };
+		9830F0C52C11DF2C00D69C88 /* LinkraptorWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9830F0C42C11DF2C00D69C88 /* LinkraptorWindow.swift */; };
 		9830F0C72C11E87300D69C88 /* Array+RawRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9830F0C62C11E87300D69C88 /* Array+RawRepresentable.swift */; };
 		9838C9802E9BC6CF00261421 /* View+Tooltip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9838C97F2E9BC6CB00261421 /* View+Tooltip.swift */; };
 		984671D02E68A06100250D9C /* View+ScrollEdgeDisabled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984671CF2E68A05800250D9C /* View+ScrollEdgeDisabled.swift */; };
-		986AC6242CECDB5000884C40 /* BrowserinoApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986AC6232CECDB4700884C40 /* BrowserinoApplication.swift */; };
+		986AC6242CECDB5000884C40 /* LinkraptorApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986AC6232CECDB4700884C40 /* LinkraptorApplication.swift */; };
 		986DC8072CFE42E300447DC7 /* RulesTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986DC8062CFE42E000447DC7 /* RulesTab.swift */; };
 		986DC8092CFE42EB00447DC7 /* Rule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986DC8082CFE42EA00447DC7 /* Rule.swift */; };
 		C4A1E0F12E00000000000002 /* ChromeProfiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A1E0F12E00000000000001 /* ChromeProfiles.swift */; };
@@ -36,7 +36,7 @@
 		989B17F92C170C160039441B /* AboutTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989B17F82C170C160039441B /* AboutTab.swift */; };
 		989B17FB2C1710D70039441B /* AppsTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989B17FA2C1710D70039441B /* AppsTab.swift */; };
 		989B17FD2C17400A0039441B /* EditAppForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989B17FC2C17400A0039441B /* EditAppForm.swift */; };
-		98F919362C12187500BDC10C /* Browserino.icns in Resources */ = {isa = PBXBuildFile; fileRef = 98F919352C12187500BDC10C /* Browserino.icns */; };
+		98F919362C12187500BDC10C /* Linkraptor.icns in Resources */ = {isa = PBXBuildFile; fileRef = 98F919352C12187500BDC10C /* Linkraptor.icns */; };
 		B9CFBE192F0C6F3D00FC6D37 /* URLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CFBE182F0C6F3D00FC6D37 /* URLExtensions.swift */; };
 		5A0B1E000000000000000001 /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = 5A0B1E000000000000000002 /* Sparkle */; };
 /* End PBXBuildFile section */
@@ -45,22 +45,22 @@
 		664FDF212CE4AA6B009766AA /* BrowserUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserUtil.swift; sourceTree = "<group>"; };
 		6692478F2CEB48A5006A8C8B /* LocationsTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsTab.swift; sourceTree = "<group>"; };
 		9830F0A22C119A3000D69C88 /* Linkraptor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Linkraptor.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9830F0A52C119A3000D69C88 /* BrowserinoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserinoApp.swift; sourceTree = "<group>"; };
+		9830F0A52C119A3000D69C88 /* LinkraptorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkraptorApp.swift; sourceTree = "<group>"; };
 		9830F0A72C119A3000D69C88 /* PromptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptView.swift; sourceTree = "<group>"; };
 		9830F0A92C119A3100D69C88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9830F0AC2C119A3100D69C88 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		9830F0AE2C119A3100D69C88 /* Browserino.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Browserino.entitlements; sourceTree = "<group>"; };
+		9830F0AE2C119A3100D69C88 /* Linkraptor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Linkraptor.entitlements; sourceTree = "<group>"; };
 		9830F0B42C119AB500D69C88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		9830F0B52C119CD800D69C88 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9830F0B82C11B09700D69C88 /* BlurredView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurredView.swift; sourceTree = "<group>"; };
 		9830F0BA2C11DE8F00D69C88 /* PreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesView.swift; sourceTree = "<group>"; };
 		9830F0BD2C11DEBB00D69C88 /* View+If.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+If.swift"; sourceTree = "<group>"; };
 		9830F0C22C11DEED00D69C88 /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
-		9830F0C42C11DF2C00D69C88 /* BrowserinoWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserinoWindow.swift; sourceTree = "<group>"; };
+		9830F0C42C11DF2C00D69C88 /* LinkraptorWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkraptorWindow.swift; sourceTree = "<group>"; };
 		9830F0C62C11E87300D69C88 /* Array+RawRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+RawRepresentable.swift"; sourceTree = "<group>"; };
 		9838C97F2E9BC6CB00261421 /* View+Tooltip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Tooltip.swift"; sourceTree = "<group>"; };
 		984671CF2E68A05800250D9C /* View+ScrollEdgeDisabled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+ScrollEdgeDisabled.swift"; sourceTree = "<group>"; };
-		986AC6232CECDB4700884C40 /* BrowserinoApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserinoApplication.swift; sourceTree = "<group>"; };
+		986AC6232CECDB4700884C40 /* LinkraptorApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkraptorApplication.swift; sourceTree = "<group>"; };
 		986DC8062CFE42E000447DC7 /* RulesTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesTab.swift; sourceTree = "<group>"; };
 		986DC8082CFE42EA00447DC7 /* Rule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rule.swift; sourceTree = "<group>"; };
 		C4A1E0F12E00000000000001 /* ChromeProfiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChromeProfiles.swift; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 		989B17F82C170C160039441B /* AboutTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutTab.swift; sourceTree = "<group>"; };
 		989B17FA2C1710D70039441B /* AppsTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsTab.swift; sourceTree = "<group>"; };
 		989B17FC2C17400A0039441B /* EditAppForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAppForm.swift; sourceTree = "<group>"; };
-		98F919352C12187500BDC10C /* Browserino.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Browserino.icns; sourceTree = "<group>"; };
+		98F919352C12187500BDC10C /* Linkraptor.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Linkraptor.icns; sourceTree = "<group>"; };
 		B9CFBE182F0C6F3D00FC6D37 /* URLExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,7 +93,7 @@
 		9830F0992C119A3000D69C88 = {
 			isa = PBXGroup;
 			children = (
-				9830F0A42C119A3000D69C88 /* Browserino */,
+				9830F0A42C119A3000D69C88 /* Linkraptor */,
 				9830F0A32C119A3000D69C88 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -106,7 +106,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9830F0A42C119A3000D69C88 /* Browserino */ = {
+		9830F0A42C119A3000D69C88 /* Linkraptor */ = {
 			isa = PBXGroup;
 			children = (
 				9830F0AB2C119A3100D69C88 /* Preview Content */,
@@ -116,14 +116,14 @@
 				9830F0B72C11B08B00D69C88 /* Views */,
 				9830F0A92C119A3100D69C88 /* Assets.xcassets */,
 				9830F0B42C119AB500D69C88 /* Info.plist */,
-				98F919352C12187500BDC10C /* Browserino.icns */,
-				9830F0AE2C119A3100D69C88 /* Browserino.entitlements */,
-				9830F0C42C11DF2C00D69C88 /* BrowserinoWindow.swift */,
-				9830F0A52C119A3000D69C88 /* BrowserinoApp.swift */,
-				986AC6232CECDB4700884C40 /* BrowserinoApplication.swift */,
+				98F919352C12187500BDC10C /* Linkraptor.icns */,
+				9830F0AE2C119A3100D69C88 /* Linkraptor.entitlements */,
+				9830F0C42C11DF2C00D69C88 /* LinkraptorWindow.swift */,
+				9830F0A52C119A3000D69C88 /* LinkraptorApp.swift */,
+				986AC6232CECDB4700884C40 /* LinkraptorApplication.swift */,
 				9830F0B52C119CD800D69C88 /* main.swift */,
 			);
-			path = Browserino;
+			path = Linkraptor;
 			sourceTree = "<group>";
 		};
 		9830F0AB2C119A3100D69C88 /* Preview Content */ = {
@@ -205,9 +205,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9830F0A12C119A3000D69C88 /* Browserino */ = {
+		9830F0A12C119A3000D69C88 /* Linkraptor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9830F0B12C119A3100D69C88 /* Build configuration list for PBXNativeTarget "Browserino" */;
+			buildConfigurationList = 9830F0B12C119A3100D69C88 /* Build configuration list for PBXNativeTarget "Linkraptor" */;
 			buildPhases = (
 				9830F09E2C119A3000D69C88 /* Sources */,
 				9830F09F2C119A3000D69C88 /* Frameworks */,
@@ -217,11 +217,11 @@
 			);
 			dependencies = (
 			);
-			name = Browserino;
+			name = Linkraptor;
 			packageProductDependencies = (
 				5A0B1E000000000000000002 /* Sparkle */,
 			);
-			productName = Browserino;
+			productName = Linkraptor;
 			productReference = 9830F0A22C119A3000D69C88 /* Linkraptor.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -240,7 +240,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9830F09D2C119A3000D69C88 /* Build configuration list for PBXProject "Browserino" */;
+			buildConfigurationList = 9830F09D2C119A3000D69C88 /* Build configuration list for PBXProject "Linkraptor" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -256,7 +256,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9830F0A12C119A3000D69C88 /* Browserino */,
+				9830F0A12C119A3000D69C88 /* Linkraptor */,
 			);
 		};
 /* End PBXProject section */
@@ -268,7 +268,7 @@
 			files = (
 				9830F0AD2C119A3100D69C88 /* Preview Assets.xcassets in Resources */,
 				9830F0AA2C119A3100D69C88 /* Assets.xcassets in Resources */,
-				98F919362C12187500BDC10C /* Browserino.icns in Resources */,
+				98F919362C12187500BDC10C /* Linkraptor.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,8 +281,8 @@
 			files = (
 				9830F0BB2C11DE8F00D69C88 /* PreferencesView.swift in Sources */,
 				9830F0A82C119A3000D69C88 /* PromptView.swift in Sources */,
-				9830F0A62C119A3000D69C88 /* BrowserinoApp.swift in Sources */,
-				9830F0C52C11DF2C00D69C88 /* BrowserinoWindow.swift in Sources */,
+				9830F0A62C119A3000D69C88 /* LinkraptorApp.swift in Sources */,
+				9830F0C52C11DF2C00D69C88 /* LinkraptorWindow.swift in Sources */,
 				B9CFBE192F0C6F3D00FC6D37 /* URLExtensions.swift in Sources */,
 				989B17FB2C1710D70039441B /* AppsTab.swift in Sources */,
 				986DF3C42E45ED0500D5A3C4 /* View+FocusEffectDisabled.swift in Sources */,
@@ -305,7 +305,7 @@
 				C4A1E0F12E00000000000002 /* ChromeProfiles.swift in Sources */,
 				9838C9802E9BC6CF00261421 /* View+Tooltip.swift in Sources */,
 				9830F0B92C11B09700D69C88 /* BlurredView.swift in Sources */,
-				986AC6242CECDB5000884C40 /* BrowserinoApplication.swift in Sources */,
+				986AC6242CECDB5000884C40 /* LinkraptorApplication.swift in Sources */,
 				9830F0C72C11E87300D69C88 /* Array+RawRepresentable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,24 +437,24 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGN_ENTITLEMENTS = Browserino/Browserino.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Linkraptor/Linkraptor.entitlements;
 				CODE_SIGN_IDENTITY = "Don't Code Sign";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Don't Code Sign";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Browserino/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Linkraptor/Preview Content\"";
 				DEVELOPMENT_TEAM = N37A28CLCC;
 				"DEVELOPMENT_TEAM[sdk=macosx*]" = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Browserino/Info.plist;
+				INFOPLIST_FILE = Linkraptor/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Linkraptor;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSPrincipalClass = Browserino.BrowserinoApplication;
+				INFOPLIST_KEY_NSPrincipalClass = Linkraptor.LinkraptorApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -463,7 +463,7 @@
 				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.matmac945.Linkraptor;
 				PRODUCT_NAME = Linkraptor;
-				PRODUCT_MODULE_NAME = Browserino;
+				PRODUCT_MODULE_NAME = Linkraptor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -475,24 +475,24 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGN_ENTITLEMENTS = Browserino/Browserino.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Linkraptor/Linkraptor.entitlements;
 				CODE_SIGN_IDENTITY = "Don't Code Sign";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Don't Code Sign";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Browserino/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Linkraptor/Preview Content\"";
 				DEVELOPMENT_TEAM = N37A28CLCC;
 				"DEVELOPMENT_TEAM[sdk=macosx*]" = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Browserino/Info.plist;
+				INFOPLIST_FILE = Linkraptor/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Linkraptor;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSPrincipalClass = Browserino.BrowserinoApplication;
+				INFOPLIST_KEY_NSPrincipalClass = Linkraptor.LinkraptorApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -501,7 +501,7 @@
 				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.matmac945.Linkraptor;
 				PRODUCT_NAME = Linkraptor;
-				PRODUCT_MODULE_NAME = Browserino;
+				PRODUCT_MODULE_NAME = Linkraptor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -510,7 +510,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9830F09D2C119A3000D69C88 /* Build configuration list for PBXProject "Browserino" */ = {
+		9830F09D2C119A3000D69C88 /* Build configuration list for PBXProject "Linkraptor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9830F0AF2C119A3100D69C88 /* Debug */,
@@ -519,7 +519,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9830F0B12C119A3100D69C88 /* Build configuration list for PBXNativeTarget "Browserino" */ = {
+		9830F0B12C119A3100D69C88 /* Build configuration list for PBXNativeTarget "Linkraptor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9830F0B22C119A3100D69C88 /* Debug */,

@@ -34,7 +34,7 @@
 		</dict>
 	</array>
 	<key>CFBundleIconFile</key>
-	<string>Browserino</string>
+	<string>Linkraptor</string>
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>

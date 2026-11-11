@@ -283,7 +283,7 @@ struct PromptView: View {
             }
         }
         .padding(Self.padding)
-        .frame(width: BrowserinoWindow.selectorWidth)
+        .frame(width: LinkraptorWindow.selectorWidth)
     }
 }
 

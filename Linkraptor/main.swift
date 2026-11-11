@@ -8,7 +8,7 @@
 import AppKit
 import Foundation
 
-let app = BrowserinoApplication.shared
+let app = LinkraptorApplication.shared
 let delegate = AppDelegate()
 
 app.delegate = delegate

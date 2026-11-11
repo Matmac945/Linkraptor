@@ -82,7 +82,7 @@ Now `scripts/release.sh` works there too.
 ```bash
 git clone https://github.com/Matmac945/Linkraptor.git
 cd Linkraptor
-xcodebuild -project Browserino.xcodeproj -scheme Browserino -configuration Release -derivedDataPath build build
+xcodebuild -project Linkraptor.xcodeproj -scheme Linkraptor -configuration Release -derivedDataPath build build
 codesign --force --deep --sign - build/Build/Products/Release/Linkraptor.app
 ditto build/Build/Products/Release/Linkraptor.app /Applications/Linkraptor.app
 ```

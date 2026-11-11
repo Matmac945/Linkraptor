@@ -34,7 +34,7 @@ if gh release view "$TAG" --repo "$REPO" >/dev/null 2>&1; then
 fi
 
 echo "==> Building $APP_NAME $VERSION (build $BUILD_NUMBER)"
-xcodebuild -project Browserino.xcodeproj -scheme Browserino -configuration Release \
+xcodebuild -project Linkraptor.xcodeproj -scheme Linkraptor -configuration Release \
     -destination "generic/platform=macOS" -derivedDataPath "$BUILD_DIR" \
     MARKETING_VERSION="$VERSION" CURRENT_PROJECT_VERSION="$BUILD_NUMBER" \
     clean build | grep -E "error:|BUILD (SUCCEEDED|FAILED)"

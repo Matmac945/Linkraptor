@@ -1,5 +1,5 @@
 //
-//  BrowserinoWindow.swift
+//  LinkraptorWindow.swift
 //  Browserino
 //
 //  Created by Aleksandr Strizhnev on 06.06.2024.
@@ -8,7 +8,7 @@
 import Foundation
 import AppKit
 
-class BrowserinoWindow: NSPanel {
+class LinkraptorWindow: NSPanel {
     static let selectorWidth: CGFloat = 270
     static let selectorHeight: CGFloat = 200
     static let cornerRadius: CGFloat = 16
