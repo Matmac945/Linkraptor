@@ -250,7 +250,9 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSWindowDelegate, NSMenuDele
                    let encodedUrl = queryItems.first(where: { $0.name == "url" })?.value,
                    let decodedData = Data(base64Encoded: encodedUrl),
                    let decodedUrlString = String(data: decodedData, encoding: .utf8),
-                   let decodedUrl = URL(string: decodedUrlString) {
+                   let decodedUrl = URL(string: decodedUrlString),
+                   ["http", "https"].contains(decodedUrl.scheme?.lowercased() ?? ""),
+                   decodedUrl.host() != nil {
                     processedUrls = [decodedUrl]
                 } else {
                     return

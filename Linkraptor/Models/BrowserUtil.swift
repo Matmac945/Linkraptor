@@ -83,9 +83,16 @@ class BrowserUtil {
         // Flags only reach the browser on its command line, so the links go
         // there too. A running Chrome hands the whole command line over to
         // its open window, so this works whether or not it's already open.
+        //
+        // Only pass web and file links: anything else (or text starting with
+        // "-") could be read by the browser as a command-line flag.
         if !arguments.isEmpty {
+            let safeUrls = urls.filter(isSafeToPassAsArgument)
+            guard !safeUrls.isEmpty else {
+                return
+            }
             configuration.createsNewApplicationInstance = true
-            configuration.arguments = arguments + urls.map(\.absoluteString)
+            configuration.arguments = arguments + safeUrls.map(\.absoluteString)
         }
 
         NSWorkspace.shared.open(
@@ -93,5 +100,16 @@ class BrowserUtil {
             withApplicationAt: app,
             configuration: configuration
         )
+    }
+
+    private static func isSafeToPassAsArgument(_ url: URL) -> Bool {
+        switch url.scheme?.lowercased() {
+        case "http", "https":
+            return url.host() != nil
+        case "file":
+            return true
+        default:
+            return false
+        }
     }
 }
